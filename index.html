@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- First always declare the doc type. -->
+<html lang="en-US"> <!-- Next declare the language we're using. -->
+    <head>
+        <!-- meta tags do not have end tags-->
+        <meta charset="UTF-8"> <!-- declare the character set. UTF-8 is the preferred encoding for web pages. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- define the viewport to control the page's dimensions and scaling for different devices. The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="A compilation site of the skills I've learned.">
+        <title>Project 0</title>
+        <link rel="stylesheet" href="assets/styles/style.css"> <!-- link your css file. Include the relationship value (e.g. stylesheet) for the linked document. -->
+    </head>
+
+    <body onload="alert('Your website has loaded!');">
+        <main> <!-- Only use this tag once per page for the most important content. -->
+            <time datetime="6-21-2020">June 21, 2020</time>
+            <h1 class="test">Testing123</h1>
+            <p>Despite the warm weather this year, <time datetime="6-21-2020">June 21, 2020</time>, is technically the first day of summer.</p>
+            <img src="#"> <!-- Use (#) as a placeholder for unknown links. -->
+            <img src="https://via.placeholder.com/150"> <!-- Option to use placeholder image showing size dimensions. -->
+            <img src="http://lorempixel.com/output/fashion-q-c-300-250-4.jpg"> <!-- Option to use placeholder photograph. -->
+            <h2>Heading Two</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur labore quaerat sint, a impedit provident facere dolor repellendus quae perferendis eius distinctio culpa sequi asperiores molestiae voluptates quod et.</p>
+            <h3 id="insertHere"></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam voluptas, ex molestiae veritatis magnam repellat quo beatae temporibus, adipisci sapiente iste debitis ad ipsa provident quasi distinctio earum? Culpa, vel?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. /* cspell: disable-line */ Libero recusandae quis minus earum inventore nostrum dolorum maxime harum. Corrupti dignissimos obcaecati quasi iusto beatae corporis itaque voluptate consequuntur est nesciunt.</p>
+            <h4>Cook Dinner</h4>
+            <a href="http://thenewboston.com" onmouseover="alert('Game Time!');">Hover over me!</a>
+            <aside id="mood">
+            </aside>
+            <a href="http://thenewboston.com" onmouseout="alert('Wait, come back!');">Hover over me!</a>
+            <p id="demo1"></p>
+            <h3 id="demo2"></h3>
+            <!-- Example of event handler (JavaScript) used within the html body that provides two alerts from one button. -->
+            <form>
+                <input type="button" value="touch me" onclick="alert('Good Morning!');alert('Have a good day!');"/>
+            </form>
+            <!-- Using JavaScript, adds a click event to input two numbers, add them and insert text to display the sum. -->
+            <h1>JavaScript Events</h1>
+            <h3>Add Numbers:</h3>
+            <p><input type="text" id="num-one"> + <input type="text" id="num-two"></p>
+            <p id="add-sum"></p>
+            <h4>Pictures</h4>
+            <ul>
+                <li>
+                    <a data-img="simon-pic" id="simon" href="#">Simon Cowell</a>
+                </li>
+                <li>
+                    <a data-img="bruce-pic" id="bruce" href="#">Bruce Willis</a>
+                </li>
+                <li>
+                    <a data-img="mike-pic" id="mike" href="#">Michael Jackson</a>
+                </li>
+            </ul>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Simon_Cowell_in_December_2011.jpg" alt="Simon Cowell in December 2011" class="hide" id="simon-pic">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/0/03/Bruce_Willis_by_Gage_Skidmore.jpg" alt="Bruce Willis" class="hide" id="bruce-pic">
+            <img src="https://media.gettyimages.com/photos/singer-michael-jackson-picture-id50719792?s=612x612" alt="Michael Jackson" class="hide" id="mike-pic">
+
+        </main>
+        <footer>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, recusandae? Expedita rem eum exercitationem quasi sit autem ducimus ut beatae possimus. Est quaerat eos accusantium odit aut blanditiis ipsa rem?</p>
+        </footer>
+        <script src="assets/scripts/script.js"></script> <!-- The JavaScript file is placed last in the body, so that it renders last. -->
+    </body>
+</html>
